@@ -1,0 +1,356 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+body{
+  display: block;
+  margin:10px;
+  padding: 0;
+  font-family: Trebuchet MS;
+  background-image: url(../img/image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+
+
+}
+
+
+
+nav{
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 100px;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+nav.black{
+  background: rgba(0, 0, 0, 0.8);
+  height: 100px;
+  padding: 10px 100px;
+
+}
+
+nav.logo{
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  transition: .3s;
+
+
+
+}
+
+nav.black .logo {
+  color: #ffff;
+
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li{
+  list-style: none;
+
+}
+
+nav ul li a {
+  line-height: 80px;
+  color:white;
+  padding:12px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+nav.black ul li a {
+color: white;
+}
+
+nav ul li a:focus {
+  outline: none;
+
+}
+
+nav ul li a.active {
+  background: #E2472F;
+  color: #fff;
+  border-radius: 6px;
+}
+
+section.sec1{
+  height: 60vh;
+
+     background:url("../img/images.jpg") no-repeat;
+}
+
+#headline{
+	margin-top: -180px;
+}
+
+h1{
+	font-size:30px;
+	font-weight:bold;
+	margin-bottom:20px;
+	text-transform:uppercase;
+  text-decoration: underline;
+}
+
+h3{
+  font-size: 20px;
+  text-align: relative;
+  color: black;
+  margin-bottom: 20px;
+  border-width: 2px;
+  border-style: double;
+  border-radius: 5px;
+  border-color: green;
+
+
+}
+
+
+
+p1{
+  text-align: relative;
+  color: white;
+  font-size: 20px;
+  margin-top:  20px;
+
+}
+
+.in{
+  width: 900px;
+  margin: auto;
+}
+
+h2{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+ol,ul{
+	list-style-position:inside;
+}
+
+#avantage .in h4{
+
+  border-bottom: 1px grey solid;
+}
+
+#inconvénient .in h4{
+
+  border-bottom: 1px grey solid;
+}
+
+#feature p {
+	font-size:16px;
+	line-height:30px;
+	padding-left:340px;
+}
+
+#feature ol {
+	position:absolute;
+	list-style-type:none;
+	right:0px;
+	width:270px;
+	left: 10px;
+}
+ol, ul {
+	list-style-position:inside;
+}
+
+
+#feature li#Présentation::before {
+	display:block;
+	height:20px;
+	width:20px;
+	padding:5px;
+	margin:0px;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:18px;
+	line-height:20px;
+	box-shadow:3px 3px 0px #bbbbbb;
+	position:absolute;
+}
+
+#feature h2{
+  background-color: red;
+	color:black;
+	padding: 5px 5px 5px 35px;
+  display: block;
+	height: 20px;
+	width: 200px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	color:white;
+	text-align: center;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: normal;
+}
+
+#feature #Présentation p{
+	color: black;
+	padding:5px 5px 5px 35px;
+	font-size:14px;
+	line-height: 20px;
+}
+
+#feature li {
+
+	padding:10px;
+}
+
+#avantage .in ul li{
+	height:160px;
+	width:280px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:10px;
+	margin-left:10px;
+	float:left;
+	background:url("../img/index.jpg") center repeat;
+	background-size:cover;
+}
+
+#avantage .in ul li span a {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	position: absolute;
+	background-color:red;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-left:-10px;
+	height:20px;
+	width:auto;
+	display:block;
+	line-height:20px;
+}
+
+#inconvénient .in ul li{
+	height:160px;
+	width:280px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:10px;
+	margin-left:10px;
+	float:left;
+	background:url("../img/in.jpg") center repeat;
+	background-size:cover;
+}
+
+#inconvénient .in ul li span a {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	position: absolute;
+	background-color: red;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-left:-10px;
+	height:20px;
+	width:auto;
+	display:block;
+	line-height:20px;
+}
+
+#avantage .in h4{
+  font-size: 25px;
+  color: yellow;
+
+}
+
+#avantage .in p{
+
+padding-top: 20px;
+margin-top: 20px;
+color: white;
+
+}
+
+#inconvénient .in h4{
+  font-size: 25px;
+  color: yellow;
+
+}
+
+#inconvénient .in p{
+
+padding-top: 20px;
+margin-top: 20px;
+color: white;
+}
+
+#inconvénient .in h2 a{
+	text-decoration: none;
+	color: yellow;
+	font-size: 25px;
+
+}
+
+#inconvénient .in h2 {
+	text-decoration: none;
+	text-align: center;
+
+}
+
+#footer{
+	margin-top: 40px;
+	margin-left:624px;
+	margin-right: 632px;
+	border-width: 2px;
+	 border-style: double;
+	 border-color: DarkGray;
+	
+}
+#footer .in li::before{
+	content:"|";
+	color:white;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#footer div.in li{
+	display:inline;
+	 
+}
+
+#footer li{
+	 
+}
+#footer .in ul li {
+	font-size:16px;
+	position:relative;
+	color: Red;
+	
+}
